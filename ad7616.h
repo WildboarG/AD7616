@@ -21,7 +21,7 @@
 #define AD7616_PIN_CHSEL1     9   // channel select 1
 #define AD7616_PIN_CHSEL2     10  // channel select 2
 #define AD7616_PIN_CONVST     11  // conversion start
-#define AD7616_PIN_BUSY       12  // busy
+#define AD7616_PIN_BUSY       12  // busy (busy引脚和数据引脚是输入类型,其他皆为输出)
 
 #define AD7616_DEFAULT_CONFIG { \
     .range = AD7616_RANGE_10V, \
